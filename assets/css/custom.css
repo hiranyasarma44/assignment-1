@@ -529,6 +529,7 @@ img {
 @media (min-width: 800px) and (max-width: 991.98px) {
     .contact-form input {
         margin-right: 0 !important;
+        width: 100% !important;
     }
 
     .contact-form button {
