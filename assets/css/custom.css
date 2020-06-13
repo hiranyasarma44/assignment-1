@@ -151,6 +151,7 @@ img {
     top: 450px;
     right: -300px;
     font-size: 8rem;
+    z-index: 1 !important;
 }
 
 .min-height-75 {
@@ -307,6 +308,11 @@ img {
     top: -15px !important;
 }
 
+.abs-fall {
+    opacity: .3;
+    z-index: -1;
+}
+
 .bg-contact {
     background-image: url("../images/backgrounds/fall.svg");
     background-repeat: no-repeat;
@@ -380,7 +386,6 @@ img {
 @media (max-width: 575.98px) {
     .abs-fall {
         width: 100%;
-        z-index: -1;
     }
 
     .abs-wave {
@@ -626,7 +631,6 @@ img {
 
     .abs-fall {
         width: 100%;
-        z-index: -1;
     }
 
     .abs-wave {
