@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page :: Creative Agency</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"> -->
+    <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 <body>
-<div class="container px-5 min-height-75">
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent text-purple mt-4 z-99">
-        <a class="navbar-brand" href="#"><h3 class="font-weight-bold">agency <sup><span
-                class="badge badge-purple rounded-circle">x</span></sup></h3></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <nav class="navbar navbar-expand-lg navbar-light text-purple pt-4 z-99 sticky-top px-10">
+        <a class="navbar-brand" href="#"><h3 class="font-weight-bold">
+            agency
+             <sup>
+                 <span class="badge badge-purple rounded-circle">x</span>
+            </sup>
+            </h3>
+        </a>
+        <button class="navbar-toggler bg-white shadow" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item active">
@@ -28,7 +32,7 @@
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu border-0 shadow" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Serives One</a>
                         <a class="dropdown-item" href="#">Serives Two</a>
                         <div class="dropdown-divider"></div>
@@ -45,13 +49,14 @@
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <button class="ml-3 btn btn-purple text-white btn-round shadow-sm btn-special text-uppercase">My Project
+            <button class="ml-3 btn btn-purple text-white btn-round shadow-sm btn-special text-uppercase"><small class="font-weight-bold">My Project</small>
             </button>
         </div>
     </nav>
-    <div class="d-flex bd-highlight" style="height: 90vh;">
+<div class="container px-5 min-height-75">
+    <div class="d-flex bd-highlight banner">
         <div class="p-2 flex-fill bd-highlight d-flex">
-            <h1 class="text-lowercase text-light font-weight-normal rotate-270 mb-0 position-absolute dz-first">
+            <h1 class="text-lowercase text-light font-weight-normal rotate-270 mb-0 position-absolute bg-text dz-first">
                 Creative</h1>
             <div class="my-auto">
 
@@ -65,111 +70,105 @@
             </div>
         </div>
         <div class="flex-fill bd-highlight">
-            <img src="/assets/images/business_person.png" class="img-fluid w-50 m-0 business-person shadow-lg" alt="">
+            <img src="/assets/images/business_person.png" class="img-fluid m-0 business-person shadow-lg" alt="">
         </div>
     </div>
 </div>
-<div class="jumbotron rounded-0 bg-design px-5 mb-0">
-    <div class="container p-5 text-white">
-        <div class="px-5">
-            <h2 class="display-4 font-weight-normal text-lowercase text-white">Services <br> & Portfolio</h2>
-            <div class="row mt-5">
-                <div class="col">
-                    <dl class="row">
-                        <dt class="col-sm-3 pr-0"><img src="assets/images/icons/web_design.png" class="img-fluid w-50"
-                                                       alt=""></dt>
-                        <dd class="col-sm-9 pl-0">
-                            <p class="font-weight-bold">Web Design</p>
-                            <p>Modern website design services with new trends and direction.</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="col">
-                    <dl class="row">
-                        <dt class="col-sm-3 pr-0"><img src="assets/images/icons/branding.png" class="img-fluid w-50"
-                                                       alt=""></dt>
-                        <dd class="col-sm-9 pl-0">
-
-                            <p class="font-weight-bold">Branding</p>
-                            <p>highly professional branding and logo design work.</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="col">
-                    <dl class="row">
-                        <dt class="col-sm-3 pr-0"><img src="assets/images/icons/motion_graphics.png"
-                                                       class="img-fluid w-50" alt=""></dt>
-                        <dd class="col-sm-9 pl-0">
-
-                            <p class="font-weight-bold">Motion Graphics</p>
-                            <p>modern motion graphics and animation for businesses.</p>
-                        </dd>
-                    </dl>
-                </div>
+<div class="jumbotron rounded-0 bg-design mb-0">
+    <div class="container text-white services">
+        <h2 class="display-4 font-weight-normal text-lowercase text-white">Services <br> & Portfolio</h2>
+        <div class="row mt-5">
+            <div class="col">
+                <dl class="row">
+                    <dt class="col-sm-3 pr-0"><img src="assets/images/icons/web_design.png" class="img-fluid w-50"
+                                                    alt=""></dt>
+                    <dd class="col-sm-9 pl-0">
+                        <p class="font-weight-bold">Web Design</p>
+                        <p>Modern website design services with new trends and direction.</p>
+                    </dd>
+                </dl>
             </div>
-            <div class="row">
-                <div class="col">
-                    <dl class="row">
-                        <dt class="col-sm-3 pr-0"><img src="assets/images/icons/ui_ux_design.png" class="img-fluid w-50"
-                                                       alt=""></dt>
-                        <dd class="col-sm-9 pl-0">
-                            <p class="font-weight-bold">UI/ UX Design</p>
-                            <p>Standard screen generation and design for all devices.</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="col">
-                    <dl class="row">
-                        <dt class="col-sm-3 pr-0"><img src="assets/images/icons/web_dev.png" class="img-fluid w-50"
-                                                       alt=""></dt>
-                        <dd class="col-sm-9 pl-0">
-                            <p class="font-weight-bold">Web Development</p>
-                            <p>website development is something we are best in.</p>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="col">
-                    <dl class="row">
-                        <dt class="col-sm-3 pr-0"><img src="assets/images/icons/app_testing.png" class="img-fluid w-50"
-                                                       alt=""></dt>
-                        <dd class="col-sm-9 pl-0">
-                            <p class="font-weight-bold">App Testing</p>
-                            <p>we test app for better user experience and results.</p>
-                        </dd>
-                    </dl>
-                </div>
+            <div class="col">
+                <dl class="row">
+                    <dt class="col-sm-3 pr-0"><img src="assets/images/icons/branding.png" class="img-fluid w-50" alt=""></dt>
+                    <dd class="col-sm-9 pl-0">
+
+                        <p class="font-weight-bold">Branding</p>
+                        <p>highly professional branding and logo design work.</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl class="row">
+                    <dt class="col-sm-3 pr-0"><img src="assets/images/icons/motion_graphics.png" class="img-fluid w-50" alt=""></dt>
+                    <dd class="col-sm-9 pl-0">
+                        <p class="font-weight-bold">Motion Graphics</p>
+                        <p>modern motion graphics and animation for businesses.</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <dl class="row">
+                    <dt class="col-sm-3 pr-0"><img src="assets/images/icons/ui_ux_design.png" class="img-fluid w-50" alt=""></dt>
+                    <dd class="col-sm-9 pl-0">
+                        <p class="font-weight-bold">UI/ UX Design</p>
+                        <p>Standard screen generation and design for all devices.</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl class="row">
+                    <dt class="col-sm-3 pr-0"><img src="assets/images/icons/web_dev.png" class="img-fluid w-50"
+                                                    alt=""></dt>
+                    <dd class="col-sm-9 pl-0">
+                        <p class="font-weight-bold">Web Development</p>
+                        <p>website development is something we are best in.</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="col">
+                <dl class="row">
+                    <dt class="col-sm-3 pr-0"><img src="assets/images/icons/app_testing.png" class="img-fluid w-50"
+                                                    alt=""></dt>
+                    <dd class="col-sm-9 pl-0">
+                        <p class="font-weight-bold">App Testing</p>
+                        <p>we test app for better user experience and results.</p>
+                    </dd>
+                </dl>
             </div>
         </div>
     </div>
 </div>
 <div class="container-fluid bg-design py-5">
     <div class="card-columns">
-        <div class="card special-lg">
+        <div class="card special-lg border-0 rounded-0">
             <img class="card-img m-0" src="assets/images/portfolio/one.png" alt="Card image">
         </div>
-        <div class="card special-lg">
+        <div class="card special-lg border-0 rounded-0">
             <img class="card-img m-0" src="assets/images/portfolio/two.png" alt="Card image">
         </div>
-        <div class="card special-lg">
+        <div class="card special-lg border-0 rounded-0">
             <img class="card-img m-0" src="assets/images/portfolio/three.png" alt="Card image">
         </div>
-        <div class="card special-lg">
+        <div class="card special-lg border-0 rounded-0">
             <img class="card-img m-0" src="assets/images/portfolio/four.jpg" alt="Card image">
         </div>
     </div>
     <div class="d-flex justify-content-center mt-5">
-        <button class="text-uppercase btn btn-round btn-light text-purple font-weight-normal shadow special-2">View All
+        <button class="text-uppercase btn btn-lg btn-round-lg px-4 py-2 btn-light text-purple font-weight-normal shadow special-2">View All
             Projects
         </button>
     </div>
 </div>
-<img src="assets/images/purple_dots.png" class="img-fluid position-absolute blue-dot-team" alt="">
+<img src="assets/images/purple_dots.png" class="img-fluid position-absolute blue-dot-team bg-text" alt="">
 <div class="container mt-5 position-relative">
-    <p class="text-big text-light font-weight-bold position-absolute">team</p>
+    <p class="text-team text-light font-weight-bold position-absolute">team</p>
     <h4 class="text-capitalize text-muted text-center font-weight-lighter">Meet The Team</h4>
     <h2 class="text-center text-purple text-lowercase mb-5 pb-5">Great outcome always relay on <br> the great foundation
     </h2>
-    <div class="card-columns" style="overflow: hidden;">
+    <div class="card-columns overflow-hidden">
         <div class="card mb-4 border-0 rounded-0">
             <div class="card-body border-0 bg-light-orange h-450p position-relative shadow-lg">
                 <img class="position-absolute card-img-top" src="assets/images/team/1.png" alt="Card image cap">
@@ -218,66 +217,64 @@
     </div>
 
     <div class="d-flex justify-content-center mt-5">
-        <button class="btn btn-purple text-white btn-round shadow-sm btn-special text-uppercase">Let's catch all
+        <button class="btn btn-purple btn-lg text-white btn-round-lg shadow-sm btn-special text-uppercase">Let's catch all
         </button>
     </div>
 </div>
 
-<div class="container-fluid bg-gray position-relative pr-5 pl-0 mt-5" style="min-height: 200vh;">
-    <img src="assets/images/achievements/clients & achievements.png" class="img-fluid w-50 mx-0  position-absolute"
-         style="top:-30px" alt="">
-    <h2 class="text-right display-3 font-weight-normal text-purple px-5 mx-5 mt-5 pt-5">clients & <br> achievements</h2>
-    <h1 class="text-lowercase text-light font-weight-normal rotate-90 mb-0 position-absolute dz-achievements">
+<div class="container-fluid bg-gray position-relative pl-0 mt-5 mh-194">
+    <img src="assets/images/achievements/clients & achievements.png" class="img-fluid w-50 m-0  position-absolute top--3" alt="clients & achievements">
+    <h2 class="text-right display-3 font-weight-normal text-purple text-clients">clients & <br> achievements</h2>
+    <h1 class="text-lowercase text-light font-weight-normal rotate-90 mb-0 position-absolute dz-achievements bg-text">
         achievements</h1>
     <div class="container position-relative">
         <div class="row pt-50">
-            <div class="col-5"><p>&nbsp;</p></div>
-            <div class="col-7">
-                <div class="row">
+            <div class="col-md-4"><p>&nbsp;</p></div>
+            <div class="col-md-8">
+                <div class="row badges">
                     <div class="col-6">
-                        <dl class="row">
-                            <dt class="col-sm-3 pr-0"><img src="assets/images/achievements/1.png" class="img-fluid w-50"
-                                                           alt=""></dt>
-                            <dd class="col-sm-9 pl-0">
-                                <p class="font-weight-bold text-purple text-lowercase">Emerging Design <br> agency
-                                    (2017)</p>
-                            </dd>
-                        </dl>
+                        <div class="media">
+                            <img src="assets/images/achievements/1.png" class="img-fluid mr-3 w-25" alt="">
+                            <div class="media-body">
+                                <p class="align-self-center font-weight-bold text-purple text-lowercase py-4">Emerging Design <br> agency (2017)</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-6">
-                        <dl class="row">
-                            <dt class="col-sm-3 pr-0"><img src="assets/images/achievements/2.png" class="img-fluid w-50"
-                                                           alt=""></dt>
-                            <dd class="col-sm-9 pl-0">
-                                <p class="font-weight-bold text-purple text-lowercase">
+                        <div class="media">
+                            <img src="assets/images/achievements/2.png" class="img-fluid mr-3 w-25" alt="">
+                            <div class="media-body">
+                                <p class="align-self-center font-weight-bold text-purple text-lowercase py-4">
                                     top 10 design <br> agency(2018)
                                 </p>
-                            </dd>
-                        </dl>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-6">
-                        <dl class="row">
-                            <dt class="col-sm-3 pr-0"><img src="assets/images/achievements/1.png" class="img-fluid w-50"
-                                                           alt=""></dt>
-                            <dd class="col-sm-9 pl-0">
-                                <p class="font-weight-bold text-purple text-lowercase">Top 5 Design <br> agency (2019)
-                                    <br> internationally</p>
-                            </dd>
-                        </dl>
+                        <div class="media">
+                            <img src="assets/images/achievements/1.png" class="img-fluid mr-3 w-25" alt="">
+                            <div class="media-body">
+                                <p class="align-self-center font-weight-bold text-purple text-lowercase py-4">
+                                    Top 5 Design <br> agency (2019) <br> internationally
+                                </p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-6">
-                        <dl class="row">
-                            <dt class="col-sm-3 pr-0"><img src="assets/images/achievements/4.png" class="img-fluid w-50"
-                                                           alt=""></dt>
-                            <dd class="col-sm-9 pl-0">
-                                <p class="font-weight-bold text-purple text-lowercase">
-                                    going to get <br> <span class="badge badge-warning rounded-0 text-white pb-2"> no. 1 place </span>
-                                    <br> internationally
+                        <div class="media">
+                            <img src="assets/images/achievements/4.png" class="img-fluid mr-3 w-25" alt="">
+                            <div class="media-body">
+                                <p class="align-self-center font-weight-bold text-purple text-lowercase py-4">
+                                    going to get 
+                                    <br>
+                                    <span class="badge-warning rounded-0 text-white px-2 pb-2"> no. 1 place </span>
+                                    <br>
+                                     internationally
                                 </p>
-                            </dd>
-                        </dl>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -288,11 +285,11 @@
 </div>
 <div class="jumbotron bg-transparent">
     <div class="row">
-        <div class="col-6 mx-auto card border-0">
+        <div class="col-md-6 mx-auto card border-0">
             <h6 class="text-center text-gray">contact us</h6>
-            <h2 class="font-weight-bold text-purple text-center mb-5">Have some idea in your mind? <br> we would love to
+            <h2 class="font-weight-bold text-purple text-center contact-greet mb-5">Have some idea in your mind? <br> we would love to
                 hear</h2>
-            <form class="form-inline d-flex justify-content-center">
+            <form class="form-inline d-flex justify-content-center contact-form">
                 <input type="text" class="form-control form-rounded border input-border-purple mr-3"
                        placeholder="enter you email">
                 <button class="btn btn-purple text-white btn-round shadow-sm btn-special text-lowercase ml-3 py-1 px-4">
@@ -306,15 +303,15 @@
 <div class="jumbotron bg-gray mb-0 pb-3">
     <div class="footer">
         <div class="row">
-            <div class="col-8 border mx-auto border-left-0 border-right-0 py-5 border-purple">
+            <div class="col-md-8 border mx-4 mx-md-auto border-left-0 border-right-0 py-5 border-purple">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-6 col-sm-3">
                         <p class="text-dark-purple font-weight-bold">agency <sup><span
                                 class="badge badge-purple text-white rounded-circle">x</span></sup></p>
                         <p class="pt-3 text-purple">A design agency shaping ideas into products. We help startups and
                             enterprises invent, build and launch</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-sm-3">
 
                         <p class="text-dark-purple font-weight-bold">Services</p>
                         <ul class="list-unstyled text-purple pt-3">
@@ -324,8 +321,7 @@
                             <li><a href="#">Videography</a></li>
                         </ul>
                     </div>
-                    <div class="col-3">
-
+                    <div class="col-6 col-sm-3">
                         <p class="text-dark-purple font-weight-bold">Support</p>
                         <ul class="list-unstyled text-purple pt-3">
                             <li><a href="#">Get Support</a></li>
@@ -335,7 +331,7 @@
                             <li><a href="#">Pricing</a></li>
                         </ul>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-sm-3">
 
                         <p class="text-dark-purple font-weight-bold">social</p>
                         <div class="d-flex justify-content-between pt-3">
@@ -354,5 +350,6 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
 </body>
 </html>

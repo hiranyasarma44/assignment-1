@@ -69,11 +69,13 @@
 .special-lg:hover{
     box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
 }
-
-.btn-round-lg{
-    border-radius: 22.5px;
+.banner{
+    height: 90vh;
 }
-.btn-round{
+/* .btn-round-lg{
+    border-radius: 22.5px;
+} */
+/* .btn-round{
     border-radius: 17px;
 }
 .btn-round-sm{
@@ -83,7 +85,7 @@
     border-radius: 11px;
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
 .bg-design{
     background-image: url('../images/bg_dotted.jpg');
     background-repeat: no-repeat;
@@ -132,6 +134,7 @@ img {
     position: absolute;
     top:0;
     right: 0;
+    width: 48vw;
 }
 .bg-light-orange{
  background-color: #FFC5B8;
@@ -152,7 +155,8 @@ img {
      bottom:-5px;
      width: 345px;
  }
- .text-big {
+ .text-team {     
+    z-index: -1;
 	top: -5px;
 	left: -43px;
 	font-size: 14rem;
@@ -181,4 +185,176 @@ img {
 }
 .border-purple{
     border-color: #502eff!important;
+}
+.bg-text{
+    z-index: -1;
+}
+.btn-round {
+    border: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+  }
+  .btn-round-lg {
+    border: 0;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+  }
+  
+  .btn-lg {
+    padding: 10px 37.5px 10px 37.5px;
+    font-size: 1.2em;
+  }
+  
+  .btn-md {
+    padding: 7.5px 30px 7.5px 30px;
+    font-size: 1em;
+  }
+  
+  .btn-sm {
+    padding: 6px 22.5px 6px 22.5px;
+    font-size: 0.8em;
+  }
+
+  .mh-194{
+    min-height: 194vh;
+  }
+  .px-10{
+    padding-right: 9rem;
+    padding-left: 9rem;
+  }
+.navbar{    
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+.top--3{
+    top: -15px!important;
+}
+.services{
+    padding-left: 8rem;
+    padding-right: 8rem;    
+    padding-top: 8rem;
+}
+.text-clients{
+    padding-top: 3rem;
+    padding-right: 12rem;
+}
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .contact-form input{
+        margin-right : 0!important;
+    }
+    .contact-form button{
+        margin-top: 5px;
+        margin-left: 0!important;
+        display: block;
+        width: 100%;
+    }
+    .services p{
+        text-align: center;
+    }
+    .contact-greet{
+        font-size: 1.5rem!important;
+    }
+    .pt-50{        
+        padding-top: 2rem;
+    }
+    .text-clients{
+        padding-top: 1.5rem;
+        padding-right: .5rem;
+    }
+    .services{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;    
+        padding-top: 2.5rem;
+    }
+    .mh-194{
+        min-height: 60vh!important;
+    }
+    .display-2{
+        font-size: 3rem;
+    }
+    .bg-text{
+        font-size: 5rem;
+    }
+    .dz-first {
+        top: 175px;
+        left: -110px;
+    }
+    .banner{
+        height: 60vh;
+    }
+    .px-10{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }      
+    .top--3{
+        top:-6px!important;
+    }
+    .display-4 {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .business-person {
+        position: absolute;
+        top: 0;
+        right: -300px;
+        width: 500px;
+    }
+    #navbarSupportedContent .nav-item a:hover{
+        background-color: #888!important;
+    }
+    #navbarSupportedContent button{
+        margin: auto!important;
+    }
+    #navbarSupportedContent {
+        box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        position: absolute;
+        background-color: white;
+        top: 80px;
+        padding: 20px;
+        width: 85%;
+        border-radius: .5rem;
+        text-align: justify;
+    }
+    
+    .blue-dot-team{
+        right: 0px;
+        width: 20%;
+    }
+    .text-team {
+        z-index: -1;
+        top: -5px;
+        left: -10px;
+        font-size: 7rem;
+    }
+    .display-3 {
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .mh-194{
+        /* min-height: 60vh!important; */
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    
+}
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .mh-194{
+        min-height: 60vh!important;
+    }
 }
